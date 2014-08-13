@@ -20,5 +20,8 @@ This site is currently under development. In the future, we will provide links a
 - Jeff Walker (@walkerjeffd)
 - Yoichiro Kanno (@ykanno)
 
-{{ site.github.repository_name }}
+{{ site.github }}
+
+----
+
 {{ site.github.contributors }}
