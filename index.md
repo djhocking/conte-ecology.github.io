@@ -20,8 +20,12 @@ This site is currently under development. In the future, we will provide links a
 - Jeff Walker (@walkerjeffd)
 - Yoichiro Kanno (@ykanno)
 
-{{ site.github }}
-
-----
-
-{{ site.github.contributors }}
+{% raw %}
+<ul>
+{% for contributor in site.github.contributors %}
+  <li>
+    <img src="{{ contributor.avatar_url }}" width="32" height="32" /> {{ contributor.login }}
+  </li>
+{% endfor %}
+</ul>
+{% endraw %}
