@@ -19,3 +19,5 @@ This site is currently under development. In the future, we will provide links a
 - Kyle O'Neil (@Tom-Bombadil)
 - Jeff Walker (@walkerjeffd)
 - Yoichiro Kanno (@ykanno)
+
+{{site.github.contributors}}
